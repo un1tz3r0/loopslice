@@ -6,7 +6,7 @@ setup(
     py_modules=['loopsex'],
     install_requires=[
         'Click',
-        'madmom',
+        'git+https://github.com/CPJKU/madmom',
         'pydub'
     ],
     entry_points={
