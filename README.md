@@ -1,4 +1,4 @@
-# loopsex
+# loopslice
 
 A command-line tool for splitting musical audio files into loops on the downbeats.
 
@@ -10,7 +10,7 @@ A command-line tool for splitting musical audio files into loops on the downbeat
 Each file given is processed in two passes. The first analyzes the audio and locates the downbeat positions within it. The second splits the audio file at the downbeat onsets, writing numbered clips to the specified output directory, or alongside the input files if none is given.
 
 ```
-Usage: loopsex.py [OPTIONS] [FILENAME]...
+Usage: loopslice.py [OPTIONS] [FILENAME]...
 
 Options:
 
