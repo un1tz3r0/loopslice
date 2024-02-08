@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name='loopsex',
+    name='loopslice',
     version='0.1.0',
-    py_modules=['loopsex'],
+    py_modules=['loopslice'],
     install_requires=[
         'Click',
         'git+https://github.com/CPJKU/madmom',
@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'loopsex = loopsex:cli',
+            'loopslice = loopslice:cli',
         ],
     },
 )
